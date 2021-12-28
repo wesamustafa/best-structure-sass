@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 24px;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif; }
+
+.home-page {
+  background-color: #ffd381;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  @media only screen and (min-width: 768px) {
+    .home-page {
+      background-color: #332100; } }
+  @media only screen and (min-width: 960px) {
+    .home-page {
+      background-color: #23fa23; } }
+  @media only screen and (min-width: 1200px) {
+    .home-page {
+      background-color: #3a96ff; } }
+
+.primary-header {
+  font-size: 32px;
+  color: #4a4b4d; }
